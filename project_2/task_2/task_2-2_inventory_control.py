@@ -1,0 +1,5 @@
+reagent_name = input("Введите название нового реактива: ")
+reagent_amount = input('Введите количества реактива (это должно быть целое число): ')
+f = open('inventory.txt','w', encoding='utf-8')
+print(f'Реактив {reagent_name} поступил на склад в количестве {reagent_amount} шт.', file=f)
+f.close()

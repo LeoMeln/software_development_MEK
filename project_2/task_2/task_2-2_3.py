@@ -1,0 +1,5 @@
+device_name = input("Введите название прибора: ")
+inventory_number = input("Введите инвентарный номер прибора: ") 
+condition = input('Исправен ли прибор? Введите "да" или "нет": ' )
+amount = input('Введите количество приборов: ')
+print(F'Название прибора\t{device_name}\nИнвентарный номер\t{inventory_number}\nИсправность\t{condition}\nКоличество\t{amount}')
